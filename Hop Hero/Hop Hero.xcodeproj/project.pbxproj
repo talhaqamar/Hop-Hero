@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DED386601A020931007FE30F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3865F1A020931007FE30F /* AppDelegate.swift */; };
+		DED386621A020931007FE30F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DED386611A020931007FE30F /* GameScene.sks */; };
+		DED386641A020931007FE30F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED386631A020931007FE30F /* GameScene.swift */; };
+		DED386661A020931007FE30F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED386651A020931007FE30F /* GameViewController.swift */; };
+		DED386691A020931007FE30F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED386671A020931007FE30F /* Main.storyboard */; };
+		DED3866B1A020931007FE30F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED3866A1A020931007FE30F /* Images.xcassets */; };
+		DED3866E1A020931007FE30F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED3866C1A020931007FE30F /* LaunchScreen.xib */; };
+		DED3867A1A020932007FE30F /* Hop_HeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED386791A020932007FE30F /* Hop_HeroTests.swift */; };
+		DED386841A0212AE007FE30F /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED386831A0212AE007FE30F /* PlayScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DED386741A020932007FE30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED386521A020931007FE30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED386591A020931007FE30F;
+			remoteInfo = "Hop Hero";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DED3865A1A020931007FE30F /* Hop Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hop Hero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED3865E1A020931007FE30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED3865F1A020931007FE30F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DED386611A020931007FE30F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DED386631A020931007FE30F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DED386651A020931007FE30F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DED386681A020931007FE30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DED3866A1A020931007FE30F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DED3866D1A020931007FE30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DED386731A020932007FE30F /* Hop HeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hop HeroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED386781A020932007FE30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED386791A020932007FE30F /* Hop_HeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hop_HeroTests.swift; sourceTree = "<group>"; };
+		DED386831A0212AE007FE30F /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED386571A020931007FE30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED386701A020932007FE30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DED386511A020931007FE30F = {
+			isa = PBXGroup;
+			children = (
+				DED3865C1A020931007FE30F /* Hop Hero */,
+				DED386761A020932007FE30F /* Hop HeroTests */,
+				DED3865B1A020931007FE30F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DED3865B1A020931007FE30F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED3865A1A020931007FE30F /* Hop Hero.app */,
+				DED386731A020932007FE30F /* Hop HeroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED3865C1A020931007FE30F /* Hop Hero */ = {
+			isa = PBXGroup;
+			children = (
+				DED3865F1A020931007FE30F /* AppDelegate.swift */,
+				DED386611A020931007FE30F /* GameScene.sks */,
+				DED386631A020931007FE30F /* GameScene.swift */,
+				DED386651A020931007FE30F /* GameViewController.swift */,
+				DED386671A020931007FE30F /* Main.storyboard */,
+				DED3866A1A020931007FE30F /* Images.xcassets */,
+				DED3866C1A020931007FE30F /* LaunchScreen.xib */,
+				DED3865D1A020931007FE30F /* Supporting Files */,
+				DED386831A0212AE007FE30F /* PlayScene.swift */,
+			);
+			path = "Hop Hero";
+			sourceTree = "<group>";
+		};
+		DED3865D1A020931007FE30F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED3865E1A020931007FE30F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DED386761A020932007FE30F /* Hop HeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				DED386791A020932007FE30F /* Hop_HeroTests.swift */,
+				DED386771A020932007FE30F /* Supporting Files */,
+			);
+			path = "Hop HeroTests";
+			sourceTree = "<group>";
+		};
+		DED386771A020932007FE30F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED386781A020932007FE30F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED386591A020931007FE30F /* Hop Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED3867D1A020932007FE30F /* Build configuration list for PBXNativeTarget "Hop Hero" */;
+			buildPhases = (
+				DED386561A020931007FE30F /* Sources */,
+				DED386571A020931007FE30F /* Frameworks */,
+				DED386581A020931007FE30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hop Hero";
+			productName = "Hop Hero";
+			productReference = DED3865A1A020931007FE30F /* Hop Hero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DED386721A020932007FE30F /* Hop HeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED386801A020932007FE30F /* Build configuration list for PBXNativeTarget "Hop HeroTests" */;
+			buildPhases = (
+				DED3866F1A020932007FE30F /* Sources */,
+				DED386701A020932007FE30F /* Frameworks */,
+				DED386711A020932007FE30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED386751A020932007FE30F /* PBXTargetDependency */,
+			);
+			name = "Hop HeroTests";
+			productName = "Hop HeroTests";
+			productReference = DED386731A020932007FE30F /* Hop HeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED386521A020931007FE30F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Talha Qamar";
+				TargetAttributes = {
+					DED386591A020931007FE30F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DED386721A020932007FE30F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DED386591A020931007FE30F;
+					};
+				};
+			};
+			buildConfigurationList = DED386551A020931007FE30F /* Build configuration list for PBXProject "Hop Hero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DED386511A020931007FE30F;
+			productRefGroup = DED3865B1A020931007FE30F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED386591A020931007FE30F /* Hop Hero */,
+				DED386721A020932007FE30F /* Hop HeroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED386581A020931007FE30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED3866E1A020931007FE30F /* LaunchScreen.xib in Resources */,
+				DED3866B1A020931007FE30F /* Images.xcassets in Resources */,
+				DED386621A020931007FE30F /* GameScene.sks in Resources */,
+				DED386691A020931007FE30F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED386711A020932007FE30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED386561A020931007FE30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED386641A020931007FE30F /* GameScene.swift in Sources */,
+				DED386661A020931007FE30F /* GameViewController.swift in Sources */,
+				DED386841A0212AE007FE30F /* PlayScene.swift in Sources */,
+				DED386601A020931007FE30F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED3866F1A020932007FE30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED3867A1A020932007FE30F /* Hop_HeroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DED386751A020932007FE30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED386591A020931007FE30F /* Hop Hero */;
+			targetProxy = DED386741A020932007FE30F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DED386671A020931007FE30F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED386681A020931007FE30F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DED3866C1A020931007FE30F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED3866D1A020931007FE30F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DED3867B1A020932007FE30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DED3867C1A020932007FE30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED3867E1A020932007FE30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hop Hero/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DED3867F1A020932007FE30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hop Hero/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DED386811A020932007FE30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hop HeroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hop Hero.app/Hop Hero";
+			};
+			name = Debug;
+		};
+		DED386821A020932007FE30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hop HeroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hop Hero.app/Hop Hero";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED386551A020931007FE30F /* Build configuration list for PBXProject "Hop Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED3867B1A020932007FE30F /* Debug */,
+				DED3867C1A020932007FE30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED3867D1A020932007FE30F /* Build configuration list for PBXNativeTarget "Hop Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED3867E1A020932007FE30F /* Debug */,
+				DED3867F1A020932007FE30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DED386801A020932007FE30F /* Build configuration list for PBXNativeTarget "Hop HeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED386811A020932007FE30F /* Debug */,
+				DED386821A020932007FE30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED386521A020931007FE30F /* Project object */;
+}
